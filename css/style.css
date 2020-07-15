@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(182, 30, 30);
+    background-repeat: no-repeat;
+}
+
+#container{
+    width: 1050px;
+    margin: 70px auto;
+    background-color: #fafafa;
+    padding: 60px;
+    box-shadow: 3px 3px 50px 4px #000;
+    overflow: hidden;
+    /* border-bottom-left-radius: 50px; */
+}
+/* Navigation Styles */
+nav{
+    background-color: #fafafa;
+    padding: 25px;
+}
+
+nav #logo{
+    text-decoration: none;
+    display: inline;
+    color: #eb2f64;
+    font-size: 35px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1.5);
+
+}
+
+
+#logo span{
+    color: #555
+}
+
+nav ul{
+    width: 500px;
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none; 
+    color: maroon;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*==============================================================================
+
+/* Banner Styles */
+#banner{
+    width: 100%;
+    height: 450px;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+/*=====================================================================================
+/* Content Area Styles*/
+#content-area{
+    width: 650px;
+    margin: 60px auto;
+    text-align: center;
+}
+#content-area h1{
+    text-transform: uppercase;
+    margin: 10px;
+}
+#content-area p{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#content-area button{
+    width: 120px;
+    color: #eb2f64;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* footer styles */
+footer{
+    text-align: center;
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+/* ==================================About Styles======================= */
+
+
+img{
+    width: 400px;
+    height: 600px;
+}
+
+#content{
+    width: 500px;
+    margin: 60px auto;
+    float: right;
+    text-align: center
+}
+
+#content h1{
+    font-size: 40px;
+    color: rgb(255, 30, 30);
+}
+
+#content p{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    color maroon;
+    font-size: 30px;
+}
+
+content button{
+    border-radius: 30px;
+    font-size: 50px;
+    color: maroon,
+    cursor, pointer;
+}
+
+
+/* ===================gallery styles====================
+
+======================================================*/
+
+.gallery-head{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.gallery img{
+width: 270px;
+height: 180px;
+padding: 20px;
+margin-left: 25px;
+transition: 1s;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.2);
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .5);
+}
+    /* =============================contact page======================= */
+
+
+
+    .Address{
+        width: 34%;
+        height: 60;
+        /* border: 2px solid red; */
+        text-align: center;
+        padding: 20px 0;
+        float: left;
+
+    }
+
+    .contact{
+        width: 30%;
+        height: 60px;
+        /* border: 2px solid red; */
+        text-align: center;
+        padding: 20px 0;
+        float: left;
+    }
+
+    .social{
+        width: 35%;
+        height: 60px;
+        /* border: 2px solid red; */
+        text-align: center;
+        padding: 20px 0;
+        float: right;
+    }
+
+    .social img{
+        width: 35px;
+        height: 30px;
+        padding: 20px;
+        margin-left: 25px;
+        float: right;
+    }
+    .form{
+        float: left;
+    
+    }
+    #complaint{
+        text-align: center;
+        margin-top: 50px;
+        padding-right: 50px;
+        margin-left: 400px;
+    }
+    .button{
+     border-radius: 20px;
+    font-size: 20px;
+    color: maroon,
+    cursor, pointer;
+    margin-left: 500px;
+    }
+    
+/* ==========================================contact2 page========================= */
+
+.content-area{
+    width: 1046px;
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    border: 2px solid black;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 2px;
+}
+
+#sect1{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#sect1 a{
+    border: 1px solid black;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 5px;
+    color: black;
+}
+
+.section2{
+    border: 2px solid black;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    margin-top: 2px;
+}
+.section2 .contact{
+    margin: 10px;
+    display: inline-block;
+}
+.section2 .contact label{
+    font-size: 20px;
+}
+.section2 .contact input{
+    padding: 10px;
+    height: 15px;
+}
+.area label{
+    font-size: 20px;
+}
+/* footer styles */
+#footer{
+    text-align: center;
+    width: 700px;
+    margin: 60px auto;
+}
